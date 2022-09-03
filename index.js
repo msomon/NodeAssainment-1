@@ -53,7 +53,6 @@ app.get('/get',async(req,res)=>{
 
   app.get('/get/:id',async(req,res)=>{
     const {id}= req.params 
-    // const filter = { _id : id }
     tools = data.filter(tool=> tool.id === id)
     res.send (tools)
     
