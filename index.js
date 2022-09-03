@@ -36,9 +36,6 @@ let data = [
   }
 ]
 
-// console.log(data);
-
-
 
 app.get('/',async(req,res)=>{
   
