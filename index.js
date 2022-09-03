@@ -98,7 +98,6 @@ res.send(newData)
     
   })
 
-// console.log(data);
 
 app.all("*",(req,res)=>{
   res.send("no page found")
